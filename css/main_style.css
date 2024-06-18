@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Top Navigation Bar*/
+#top_nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+#top_nav p {
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    margin-left: 35px;
+}
+
+#top_nav ul {
+    margin: auto 50px;
+}
+
+#top_nav li {
+    float: right;
+    list-style-type: none;
+    font-size: 10pt;
+    padding: 0px;
+    margin: 16px 0px 0px 25px;
+}
+
+#top_nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*Intro Text and Background Image*/
+#intro {
+    width: 100%;
+    height: 550px;
+    background-image: url('/images/background_paint.png');
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+#name {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+#name h1 {
+    margin-left: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+#name p {
+    margin-left: 75px;
+    margin-right: 960px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#intro img {
+    height: 35px;
+    width: 35px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+
+/*Projects Thumbnails*/
+#project_thumbs {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+}
+
+#project_thumbs h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.thumbnails {
+    height: 240px;
+    width: 240px;
+    float: left;
+    background-color: rgb(57, 57, 57);
+    margin: 40px 0px 0px 60px;
+    border: solid orange;
+    border-radius: 25px;
+}
+
+.thumbnails:hover {
+    background-color: rgb(191, 86, 0);
+}
+
+.thumbnails p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top:115px;
+}
+
+
+/*About Me*/
+#about_div {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(191, 86, 0);
+}
+
+#about_text {
+    width: 35%;
+    height: 70%;
+    margin: 75px 0px 0px 75px;
+    float: left;
+}
+
+#about_text p {
+    margin: 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    color: white;
+}
+
+#about_image img{
+    height: 40%;
+    width: 40%;
+    margin: 75px 0px 70px 150px;
+    border: solid black;
+    border-width: 10px;
+    border-radius: 100px;
+}
+
+#ig {
+    height: 35px;
+    width: 35px;
+    margin: 5px 0px 0px 75px;
+}
+
+#linkedin{
+    height: 35px;
+    width: 35px;
+    margin: 5px 0px 0px 25px;
+}
+

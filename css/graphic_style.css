@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#top_nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    position: fixed;
+}
+
+#top_nav p {
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    margin-left: 35px;
+}
+
+#top_nav ul {
+    margin: auto 50px;
+}
+
+#top_nav li {
+    float: right;
+    list-style-type: none;
+    font-size: 10pt;
+    padding: 0px;
+    margin: 16px 0px 0px 25px;
+}
+
+#top_nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*Images*/
+#japan_skyline {
+    width: 50%;
+    height: 50%;
+}
+
+#image_container {
+    margin-left: 75px;
+}
+
+#image_container p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    margin-bottom: 50px;
+}
+
+#images_next img {
+    height: 75%;
+    width: 75%;
+    margin: 0px 0px 0px 200px;
+}
+
+#images_next p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    margin-bottom: 50px;
+}

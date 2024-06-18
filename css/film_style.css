@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Top Navigation Bar*/
+#top_nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+#top_nav p {
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    margin-left: 35px;
+}
+
+#top_nav ul {
+    margin: auto 50px;
+}
+
+#top_nav li {
+    float: right;
+    list-style-type: none;
+    font-size: 10pt;
+    padding: 0px;
+    margin: 16px 0px 0px 25px;
+}
+
+#top_nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*Videos*/
+#videos {
+    margin-left: 25%;
+}
+
+#videos iframe {
+    margin-top: 50px;
+}
+
+#videos p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+}
